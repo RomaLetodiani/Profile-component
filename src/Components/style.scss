@@ -18,7 +18,7 @@ $mobile: 768px;
     left: -15%;
     width: 60%;
     height: 105%;
-    background-image: url('../../public/images/bg-pattern-top.svg');
+    background-image: url('../images/bg-pattern-top.svg');
     background-size: cover;
   }
 
@@ -29,7 +29,7 @@ $mobile: 768px;
     right: -15%;
     width: 60%;
     height: 105%;
-    background-image: url('../../public/images/bg-pattern-bottom.svg');
+    background-image: url('../images/bg-pattern-bottom.svg');
     background-size: cover;
   }
 
@@ -48,8 +48,8 @@ $mobile: 768px;
     box-shadow: 0px 15px 50px -10px hsl(229, 23%, 23%);
 
     .banner {
-      background: url('../../public/images/bg-pattern-card.svg') repeat center
-        center / cover;
+      background: url('../images/bg-pattern-card.svg') repeat center center /
+        cover;
       flex: 3;
     }
 
